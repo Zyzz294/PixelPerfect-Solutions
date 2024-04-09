@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -9,7 +8,9 @@ function App() {
       <title>Pixel Perfect Solutions</title>
      </head>
      <body>
-      <h1>Pixel Perfect Solutions</h1>
+      <div class="container">
+      <h2 data-text="Pixel Perfect Solutions" >Pixel Perfect Solutions</h2>
+     </div>
      </body>
 
      <footer>
