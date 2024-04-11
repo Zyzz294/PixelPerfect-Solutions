@@ -1,26 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Pixelify Sans", sans-serif;
+}
+p{
+  color: #ffffff;
 }
 body {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #252839;
+  background-color: #121212;
 }
-h2{
+h1{
   position: relative;
   font-size: 5vw;
-  color: #252839;
+  color: #000000;
   -webkit-text-stroke: 0.3vw #383d52;
   text-transform: uppercase;
   white-space : nowrap;
 }
 
-h2::before{
+h1::before{
   content: attr(data-text);
   position: absolute;
   top: 0;
