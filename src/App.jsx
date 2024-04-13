@@ -20,7 +20,7 @@ function App() {
       <Nav />
       <h1 data-text="Pixel Perfect Solutions" >Pixel Perfect Solutions</h1>
       <p id='parag'>PixelPerfect Solutions is a digital agency specializing in creating <br/> visually stunning and user-friendly websites for clients across various industries.</p>
-      <a href="#port">Portfolio</a>
+      <a id='portfolio' href="#port">Portfolio</a>
       <div id='port'>
           <ThreeDCardDemo />
           <ThreeDCardDemo2 />

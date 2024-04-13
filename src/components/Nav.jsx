@@ -1,12 +1,13 @@
 import React from 'react'
+import '../App.css';
 
 const Nav = () => {
   return (
-    <div className='grid grid-cols-4 text-white'>
-        <div>Home</div>
-        <div>Portfolio</div>
-        <div>Abous Us</div>
-        <div>Contact Us</div>
+    <div id='nav'>
+        <div id='nav'><a href="#" id='nav'>Home</a></div>
+        <div id='nav'><a href="#port" id='nav'>Portfolio</a></div>
+        <div id='nav'><a href="#" id='nav'>About Us</a></div>
+        <div id='nav'><a href="#" id='nav'>Contact Us</a></div>
     </div>
     
     

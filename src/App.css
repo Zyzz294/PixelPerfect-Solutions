@@ -13,7 +13,18 @@
 #footer{
   margin-left: 20em;
 }
-a{
+#nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position:relative;
+  top: 1%;
+  color: #ffffff;
+}
+#nav:hover{
+  color: #01fefa;
+}
+#portfolio{
   color: #ffffff;
   border: 3px solid #01fefa;
   padding: 10px;
