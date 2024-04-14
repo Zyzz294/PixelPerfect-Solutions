@@ -3,7 +3,7 @@ import '../App.css';
 
 const Nav = () => {
   return (
-    <div id='nav'>
+    <div id='nav' class="container">
         <div id='nav'><a href="#" id='nav'>Home</a></div>
         <div id='nav'><a href="#port" id='nav'>Portfolio</a></div>
         <div id='nav'><a href="#" id='nav'>About Us</a></div>
