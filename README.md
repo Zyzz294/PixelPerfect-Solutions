@@ -1,4 +1,5 @@
 # Pixel Perfect Solutions
+### PixelPerfect Solutions is a digital agency specializing in creating visually stunning and user-friendly websites for clients across various industries.
 The app is deployed using Vercel at [Pixel Perfect Solutions](https://pixel-perfect-solutions.vercel.app/)
 
 
