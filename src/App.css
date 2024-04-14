@@ -105,7 +105,8 @@ h1::before{
     width: 100%; /* Full width */
     left: 50%; /* Center horizontally */
     transform: translateX(-50%); /* Center horizontally */
-    margin-top: 0.2rem; /* Add margin top */
+    position: relative;
+    top: 100%
   }
 
   /* Heading adjustments */
